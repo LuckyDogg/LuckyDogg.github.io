@@ -69,7 +69,7 @@ Istio 中定义了以下 CRD 来帮助用户进行流量管理。
 
 # 服务网络架构
 
-![Untitled](/img/Untitled_03.png)
+<!-- ![Untitled](/img/Untitled_03.png) -->
 
 服务网格中分为**控制平面**和**数据平面**，当前流行的两款开源的服务网格 Istio 和 Linkerd 实际上都是这种构造，只不过 Istio 的划分更清晰，而且部署更零散，很多组件都被拆分，控制平面中包括 Mixer、Pilot、Citadel，数据平面默认是用Envoy；而 Linkerd 中只分为 Linkerd 做数据平面，namerd 作为控制平面。
 
