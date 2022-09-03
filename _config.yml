@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-# disqus_username: disqus_o6jZDL4cU3
+disqus_username: whychaos-space
 
 # Netease settings
 netease_comment: false
@@ -69,8 +69,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "G-6Z3Z4W53R6" # Format: UA-xxxxxx-xx
-ga_domain: whychaos.space
+# ga_track_id: "G-6Z3Z4W53R6" # Format: UA-xxxxxx-xx
+# ga_domain: whychaos.space
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
