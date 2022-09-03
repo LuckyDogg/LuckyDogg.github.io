@@ -21,7 +21,7 @@ tags:
 | 系统配置 | CentOS 7.5 | MacOS Monterey 12.5 |
 | 处理器  | intel i5-1135 | M1 Max | 
 | 内存    | 16G      | 32G |
-| 场景    | x86 镜像打包，部署云原生项目如K8s, prometheus等 | 主力开发机及个人使用电脑 |
+| 场景    | x86 镜像打包，部署学习云原生项目如K8s, prometheus等 | 主力开发机及个人使用电脑 |
 
 # 配置步骤
 ## 1. intel NUC 与 Mac 有线连接
