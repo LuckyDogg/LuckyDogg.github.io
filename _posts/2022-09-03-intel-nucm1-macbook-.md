@@ -9,6 +9,7 @@ tags:
   - intel NUC
   - remote dev
   - m1
+  - network
 ---
 
 # 背景
@@ -82,6 +83,8 @@ ONBOOT=yes
 ```shell
 reboot
 ```
+重启完成后，执行 ifconfig, 此时会看到出现了两张网卡，一张为以太网网络共享的网卡，一张为Mac 连接 Nuc的虚拟网卡
+![ifconfig](/img/ifconfig.png)
 
 ## 6. 配置免密
 免密登陆配置,mac 命令行执行
