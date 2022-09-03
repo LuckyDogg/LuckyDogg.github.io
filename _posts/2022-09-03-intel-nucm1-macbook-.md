@@ -36,14 +36,14 @@ Mac: 系统偏好设置 -> 共享 —> 互联网共享
 ![mac 开启网络共享](/img/mac_network_sharing.png)
 
 ## 3. 配置 CentOS 网络连接
-### 查看网卡
+### 3.1 查看网卡
 ```shell
 cd /etc/sysconfig/network-scripts
 # 查看NUC网卡配置
 ls | grep en # 我这里的话是ifcfg-enp89s0
 ```
 
-### 修改网卡配置，并设置为开启自动启动
+### 3.2 修改网卡配置，并设置为开启自动启动
 修改以下两项配置
 ```shell
 BOOTPROTO=dhcp
