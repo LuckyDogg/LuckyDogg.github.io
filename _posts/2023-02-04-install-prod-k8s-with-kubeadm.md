@@ -2,7 +2,7 @@
 layout: post
 title: "使用kubeadm安装生产级k8s集群"
 subtitle: ""
-date: 2022-09-03
+date: 2023-02-04
 author: "Chaos"
 header-img: "img/genshin-bg.jpeg"
 tags: 
