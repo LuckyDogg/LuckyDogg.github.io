@@ -68,6 +68,14 @@ echo 1 > /proc/sys/net/bridge/bridge-nf-call-ip6tables
 echo 1 > /proc/sys/net/bridge/bridge-nf-call-iptables
 ```
 
+### 1.8 /etc/hosts 配置，保证node 间可以通过hostname互相访问
+`vim /etc/hosts`
+```shell
+k8s-node-1 192.168.50.50
+k8s-node-2 192.168.50.51
+k8s-node-3 192.168.50.52
+```
+
 ### 1.8 重启机器
 ```shell
 reboot
