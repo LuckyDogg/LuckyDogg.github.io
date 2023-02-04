@@ -16,15 +16,15 @@ tags:
 
 ## 预先步骤
 
-｜ 目标安装版本 kubernerts 1.24.3
+｜ 目标安装版本 kubernetes 1.24.3
 ### 服务器配置：
 
 
-|        | CPU   | Memory | Disk | System | 
-| :----: | :---: | :---:| | :---:| :---:| 
-| k8s-node-1 | 2C | 8G | 100GB | Centos 7.9| 
-| k8s-node-1 | 2C | 8G | 100GB | Centos 7.9| 
-| k8s-node-1 | 2C | 8G | 100GB | Centos 7.9| 
+|        | CPU   | Memory | Disk | System | Ip |
+| :----: | :---: | :---:| | :---:| :---:| :---: |
+| k8s-node-1 | 2C | 8G | 100GB | Centos 7.9| 192.168.50.50|
+| k8s-node-1 | 2C | 8G | 100GB | Centos 7.9| 192.168.50.51|
+| k8s-node-1 | 2C | 8G | 100GB | Centos 7.9| 192.168.50.52|
 
 ## 1 配置Linux，安装依赖 
 
